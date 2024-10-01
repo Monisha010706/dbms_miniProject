@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supervisor Account</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #48c9b0;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            color: #fff;
+            margin-top: 30px;
+        }
+        .form-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            max-width: 600px;
+        }
+        label {
+            font-size: 1.1em;
+            color: #333;
+        }
+        input {
+            padding: 10px;
+            font-size: 1em;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            grid-column: span 2;
+            padding: 15px;
+            font-size: 1.2em;
+            background-color: #e74c3c;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #c0392b;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Supervisor User</h1>
+    <div class="form-container">
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name">
+
+        <label for="username">Username:</label>
+        <input type="text" id="username" placeholder="Enter your username">
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Enter your password">
+
+        <button type="reset">Reset</button>
+    </div>
+    
+</body>
+</html>
+
+
+
+
